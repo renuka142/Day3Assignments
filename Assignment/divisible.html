@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function divi(){
+            var data = document.getElementById('n').value;
+            var num = data;
+            if(num%5==0 && num%2==0)
+                document.write("true");
+            else
+                document.write("false");
+        }
+        
+    </script>
+</head>
+<body>
+    <p>program of divisibility</p>
+    <input type="number" id="n">
+    <button onclick="divi()">check</button>
+</body>
+</html>
